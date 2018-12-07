@@ -1,13 +1,14 @@
 # helpers
 
-
+### NPM
+```
 npm cache clean --force
 npm repo express
 npm home react-redux
+```
 
-
-======================
-
+### GIT
+```
 git show 32eoa57c
 git show HEAD
 git show HEAD^^
@@ -26,3 +27,4 @@ git branch --contains <commit>
   
 git rebase -i origin master
 git push -f origin FEA-1234-card
+```
