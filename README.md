@@ -28,3 +28,12 @@ git branch --contains <commit>
 git rebase -i origin master
 git push -f origin FEA-1234-card
 ```
+
+### HEROKU
+```
+heroku login
+heroku create
+heroku local
+
+heroku apps:rename newname
+```
