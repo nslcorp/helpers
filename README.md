@@ -9,6 +9,8 @@ npm home react-redux
 
 ### GIT
 ```
+git rm --cached <file-name> or git rm -r --cached <folder-name   #remove tracked files
+
 git show 32eoa57c
 git show HEAD
 git show HEAD^^
