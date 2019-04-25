@@ -40,6 +40,14 @@ heroku local
 heroku apps:rename newname
 ```
 
+### PRISMA
+```
+npm i -g prisma
+prisma login
+prisma init
+prisma deploy
+```
+
 ### SERVICES
 * https://www.draw.io/
 * https://balsamiq.com/
