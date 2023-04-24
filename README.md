@@ -7,6 +7,16 @@ npm repo express
 npm home react-redux
 ```
 
+### EB | Elastic beanstalk
+```
+eb init -r eu-central-1
+eb create --help
+eb create --sinle            >> create ENV without load balancer
+eb logs
+eb deploy
+```
+
+
 ### GIT
 ```
 git rm --cached <file-name> or git rm -r --cached <folder-name   #remove tracked files
