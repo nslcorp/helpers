@@ -7,6 +7,17 @@ npm repo express
 npm home react-redux
 ```
 
+### serverless
+```
+serverless invoke local --function functionName       | -f functionName
+servelress deploy --verbose
+serverless remove --revbose
+sls logs -f processAuction
+
+serverless 
+```
+
+
 ### EB | Elastic beanstalk
 ```
 eb init -r eu-central-1
