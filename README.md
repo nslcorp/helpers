@@ -8,14 +8,24 @@ npm home react-redux
 ```
 
 ### serverless
-```
-serverless invoke local --function functionName       | -f functionName
+```shell
 servelress deploy --verbose
 serverless remove --revbose
-sls logs -f processAuction
+serverless invoke local --function functionName       | -f -l --log
 
-serverless 
+sls logs -f processAuction -t
+sls logs -f processAuction --startTime 1m   | 1h 
 ```
+
+
+### sam
+```shell
+sam build --template template.yaml
+sam deploy --stack-name orders --guided
+
+sam delete --stack-name orders
+```
+
 
 
 ### EB | Elastic beanstalk

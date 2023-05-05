@@ -31,3 +31,23 @@ const response = await dynamoDB.update({
   })
   .promise();
 ```
+
+```typescript
+  const response = await dynamodb
+  .query({
+    TableName: "...",
+    IndexName: "myIndexName",
+    KeyConditionExpression: "#status = :status AND endingAt <= :now",
+    ExpressionAttributeValues: {
+      ":status": "OPEN",
+      ":now": new Date().toISOString(),
+    },
+    ExpressionAttributeNames: {
+      "#status": "status",
+    },
+  })
+  .promise();
+  //status is a reserverd word. For reserverd word using #status and ExpressionAttributeNames mapping
+
+  const data = response.Items
+```
